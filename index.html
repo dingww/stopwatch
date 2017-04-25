@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true"> -->
+	<title>秒表</title>	
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+	<div id="container">
+		<div id="box">
+			<div id="circle">
+			<div class="semileft"></div>
+			<div class="semiright"></div>
+			<div class="maskleft"></div>
+			<div class="maskright"></div>
+		</div>
+			<div class="time"><span id="minute">00</span>:<span id="second">00</span>.<span id="ms">0</span></div>
+		</div>
+		<div id="record">
+			<!-- <div class="record">
+				<div class="Nth">第1次：</div>
+				<div class="time"><span>00</span>分<span>00</span>秒<span>5</span></div>
+				<div class="deltime"><span>+00</span>:<span>00</span>.<span>5</span></div>
+			</div> -->
+		</div>
+		<div id="control">
+			<div class="oneBtn" style="display: block;">
+				<button class="start">开始</button>
+			</div>
+			<div class="twoBtn" style="display: none;">
+				<button class="count">计次</button><button class="stop">暂停</button>
+			</div>
+			<div class="twoBtn" style="display:none">
+				<button class="reset">重置</button><button class="continue">继续</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="./build/bundle.js"></script>
